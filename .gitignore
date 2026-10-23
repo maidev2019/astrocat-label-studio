@@ -1,0 +1,8 @@
+/Beispieldaten-astrocat_model.json
+/Beispieldaten-astrocat_slogans.json
+node_modules/
+dist/
+.env
+.env.local
+*.log
+.DS_Store

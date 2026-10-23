@@ -1,0 +1,22 @@
+/* Physical label: 70 × 100 mm portrait. Compact vertical rhythm so the footer remains visible. */
+.sticker{width:70mm;height:100mm;box-sizing:border-box;background:white;color:#111;padding:3mm 3.3mm;display:flex;flex-direction:column;gap:.55mm;font-family:Arial,Helvetica,sans-serif;line-height:1.12;overflow:hidden;text-align:left;position:relative}
+.sticker *{box-sizing:border-box}
+.sticker-head{display:flex;align-items:center;gap:2mm;border-bottom:.3mm solid #111;padding-bottom:1mm;min-height:9mm}
+.sticker-mark{width:10mm;height:10mm;flex:none;border:.4mm solid #111;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;line-height:1;font-weight:900}
+.sticker-mark .star{font-size:14pt;line-height:.95}.sticker-mark span{font-size:4pt;letter-spacing:.05pt}
+.sticker-headtext{flex:1;min-width:0;text-align:right}.sticker-headtext b{font-size:7pt;line-height:1.06;display:block;overflow-wrap:anywhere}.sticker-headtext small{font-size:5.5pt;font-weight:700}
+.sticker-title{font-size:6.5pt;font-weight:900;line-height:1.1;overflow-wrap:anywhere}
+.sticker-meta{display:grid;grid-template-columns:1fr 1fr;gap:.65mm 1mm;font-size:5.5pt;line-height:1.1}.sticker-meta div{overflow-wrap:anywhere}
+.sticker-ingredients{font-size:5.5pt;line-height:1.12;overflow-wrap:anywhere}
+.sticker-nutrition{border:.24mm solid #111;margin-top:.4mm;flex-shrink:0}
+.sticker-nutrition .caption{background:#171717;color:white;padding:.5mm .7mm;font-size:5.5pt;font-weight:800;line-height:1.08}
+.sticker-nutrition .line{display:flex;align-items:center;justify-content:space-between;gap:1.5mm;min-height:2.45mm;padding:.18mm .7mm;border-top:.1mm solid #ccc;font-size:5.5pt;line-height:1.05}
+.sticker-nutrition .line strong{white-space:nowrap}.sticker-nutrition .sub{padding-left:2.5mm}
+.sticker-bottom{margin-top:1mm;padding-top:.4mm;font-size:5.5pt;line-height:1.13;overflow-wrap:anywhere}
+.sticker-bottom>div[style]{margin-top:.65mm!important}
+.sticker-foot{border-top:.1mm solid #bbb;margin-top:.75mm;padding-top:.6mm;font-weight:700;text-align:center;font-size:5.8pt;letter-spacing:0}
+.sticker-outer{background:#fff;box-shadow:0 8px 34px #25304a20;display:inline-block;max-width:none}
+/* Never silently hide a physically overflowing label: expose it in preview for review. */
+.preview-area .sticker{overflow:visible}
+
+.sticker-logo{width:10mm;height:10mm;object-fit:contain;flex-shrink:0}
